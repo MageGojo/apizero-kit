@@ -1,0 +1,11 @@
+# 仅发布运行时必需文件（bin/src/registry.json/README/LICENSE）
+# 以下为构建期/参考用大文件，不随包发布
+openapi.json
+llms-full.txt
+scripts/
+.github/
+.gitignore
+*.tgz
+.DS_Store
+test/
+tests/

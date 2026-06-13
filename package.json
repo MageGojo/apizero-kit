@@ -1,0 +1,46 @@
+{
+  "name": "apizero-kit",
+  "version": "1.0.0",
+  "description": "极数本源 ApiZero 平台全部接口的命令行工具 —— 一个 Key，一行命令，连接所有可能。",
+  "type": "module",
+  "bin": {
+    "apizero": "bin/apizero.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "registry.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build:registry": "node scripts/build-registry.js",
+    "start": "node bin/apizero.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "apizero",
+    "极数本源",
+    "cli",
+    "api",
+    "weather",
+    "ip",
+    "ocr",
+    "ai"
+  ],
+  "author": "MageGojo",
+  "license": "MIT",
+  "homepage": "https://github.com/MageGojo/apizero-kit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MageGojo/apizero-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MageGojo/apizero-kit/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {}
+}
