@@ -14,19 +14,38 @@ apizero ai "帮我画一只赛博朋克猫"
 
 ## 安装
 
+任选一种方式，装好后命令统一都是 `apizero`。
+
+### 方式一：npm（推荐）
+
 需要 Node.js >= 18。
 
 ```bash
-# 在项目目录里全局安装（开发/本地使用）
-npm install -g .
+npm install -g @apizero/apizero
 
-# 之后任意位置即可使用 apizero 命令
 apizero --help
 ```
 
-如果不想全局安装，也可以直接运行：
+### 方式二：Homebrew（macOS / Linux）
 
 ```bash
+brew install MageGojo/tap/apizero
+
+# 或先添加 tap 再安装
+brew tap MageGojo/tap
+brew install apizero
+```
+
+### 方式三：从源码运行（开发 / 免安装）
+
+```bash
+git clone https://github.com/MageGojo/apizero-kit.git
+cd apizero-kit
+
+# 全局链接（开发用）
+npm install -g .
+
+# 或直接运行，不安装
 node bin/apizero.js --help
 ```
 
