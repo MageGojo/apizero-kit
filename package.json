@@ -1,5 +1,5 @@
 {
-  "name": "apizero-kit",
+  "name": "@apizero/apizero",
   "version": "1.0.0",
   "description": "极数本源 ApiZero 平台全部接口的命令行工具 —— 一个 Key，一行命令，连接所有可能。",
   "type": "module",
